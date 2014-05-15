@@ -1,0 +1,76 @@
+body{
+  background-image:url('/img/grass.jpeg');
+  background-size:cover;
+}
+
+#dashboard{
+  background:grey;
+  width:300px;
+}
+
+#sellSquare{
+  position:absolute;
+  right:0px;
+  top:80px;
+  border: 1px groove black;
+}
+
+.controls{
+  .grow{
+    position:relative;
+    top:60px;
+  }
+  .chop{
+    position:absolute;
+    bottom:-1px;
+    right:0px;
+  }
+}
+
+.tree{
+  display:inline-block;
+  margin:5px;
+  width:100px;
+  height:100px;
+  background-size:cover;
+  border: 1px groove black;
+  .adult{
+    position:relative;
+    bottom:20px;
+  }
+}
+
+.seed{
+  background-image:url('/img/seed.jpeg');
+  background-position: -5px 0px;
+  background-width:100%;
+}
+
+.sapling{
+  background-image:url('/img/sprout.jpeg');
+}
+
+.treenager{
+  background-image:url('/img/youngtree.jpeg');
+}
+
+.adult{
+  background-image:url('/img/tree.jpeg');
+  position:relative;
+  top:23px;
+}
+
+.tree.adult.dead{
+  position:relative;
+  top:-19px;
+}
+
+.dead{
+  position:relative;
+  bottom:19px;
+  background-image:url('/img/jolly.jpeg');
+  background-position: -28px 0px;
+  h5{
+    visibility:hidden;
+  }
+}

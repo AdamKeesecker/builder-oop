@@ -1,0 +1,19 @@
+extends ../shared/template
+
+block content
+  h1 Builder V2
+
+
+  #controls
+    input#username(type='text', autofocus=true, placeholder='Username')
+    button#login Login
+  #dashboard
+
+  #sellSquare
+    input#woodAmt(type='text', placeholder='Number of Wood to Sell')
+    button#sell Sell
+
+  #forest
+
+block scripts
+  script(src='/js/es6/compiled/game.js')

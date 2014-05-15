@@ -1,0 +1,7 @@
+.tree(data-id=tree._id.toString(), class=tree.getClass())
+  .height= tree.height
+  .controls
+    if(!tree.isChopped && tree.isHealthy)
+      button.grow Grow
+    if(!tree.isChopped && tree.isHealthy && tree.height > 23)
+      button.chop Chop
